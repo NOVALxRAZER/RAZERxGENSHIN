@@ -1,5 +1,5 @@
 # Version
-FROM node:14
+FROM node:14.18.3-slim
 
 # Create Main File Directory
 WORKDIR /client
