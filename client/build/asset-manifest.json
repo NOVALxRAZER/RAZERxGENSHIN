@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ddcc5360.css",
+    "main.js": "./static/js/main.a5dbcc05.js",
+    "static/media/cat1.png": "./static/media/cat1.0a8f8eee9ea865fe6c0c.png",
+    "static/media/razerbg1.jpg": "./static/media/razerbg1.80de193d917baeb305ce.jpg",
+    "static/media/slider3.png": "./static/media/slider3.1d2d8bbf6d05036ca02c.png",
+    "static/media/slider1.jpg": "./static/media/slider1.1bda6585d1ed16b6912c.jpg",
+    "static/media/genshinimp.jpg": "./static/media/genshinimp.5006a5cb8924f2a3035f.jpg",
+    "static/media/cat2.jpeg": "./static/media/cat2.e86d80282e72934f1f31.jpeg",
+    "static/media/noImage.png": "./static/media/noImage.ee3ecac6f3945026d5a9.png",
+    "static/media/slider2.jpg": "./static/media/slider2.2f8a8ece34bdc1b3ab94.jpg",
+    "static/media/noavatar.jpg": "./static/media/noavatar.d821428d0d6c3020eb37.jpg",
+    "index.html": "./index.html",
+    "main.ddcc5360.css.map": "./static/css/main.ddcc5360.css.map",
+    "main.a5dbcc05.js.map": "./static/js/main.a5dbcc05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddcc5360.css",
+    "static/js/main.a5dbcc05.js"
+  ]
+}
