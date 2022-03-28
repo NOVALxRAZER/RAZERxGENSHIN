@@ -48,7 +48,7 @@ const PrivateRoutes = ({ isAdmin, ...props }) => {
                     <Topbar />
                     <div className="container">
                         <Sidebar />
-                        <Route exact path="/">
+                        <Route exact path="http://151.106.120.124/">
                             <Home />
                         </Route>
                         <Route path="/users">

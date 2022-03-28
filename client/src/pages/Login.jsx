@@ -159,12 +159,12 @@ export default function Login() {
             login(dispatch, {
                 ...values,
             })
-            history.push("/");
+            history.push("http://151.106.120.124/");
         }
     };
 
     const google = () => {
-        window.open(`${baseURL}/auth/google`, "_self")
+        window.open(`/auth/google`, "_self")
     }
 
     return (

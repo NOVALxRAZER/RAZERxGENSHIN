@@ -18,7 +18,7 @@ export default function Topbar() {
         <div className="topbar">
             <div className="topbarWrapper">
                 <div className="topLeft">
-                    <a href="/" style={{ textDecoration: "none" }}>
+                    <a href="http://151.106.120.124/" style={{ textDecoration: "none" }}>
                         <span className="logo">Razer Admin</span>
                     </a>
                 </div>

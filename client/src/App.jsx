@@ -60,14 +60,14 @@ const App = () => {
     return (
         <Router>
             <Switch>
-                <Route exact path="/" onEnter={sessionService.checkAuth}>
+                <Route exact path="http://151.106.120.124/" onEnter={sessionService.checkAuth}>
                     {(user || users) ? <Home /> : <Redirect to="/login" />}
                 </Route>
                 <Route path="/login">
-                    {((user === null) && (users === null)) ? <Login /> : <Redirect to="/" />}
+                    {((user === null) && (users === null)) ? <Login /> : <Redirect to="http://151.106.120.124/" />}
                 </Route>
                 <Route path="/register">
-                    {((user === null) && (users === null)) ? <Register /> : <Redirect to="/" />}
+                    {((user === null) && (users === null)) ? <Register /> : <Redirect to="http://151.106.120.124/" />}
                 </Route>
                 <Route path="/products/:category">
                     <ProductList />

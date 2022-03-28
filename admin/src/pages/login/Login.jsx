@@ -121,7 +121,7 @@ export default function Login() {
 
     useEffect(() => {
         if (currentUser) {
-            history.push("/");
+            history.push("http://151.106.120.124/");
         }
     }, [currentUser, history])
 
