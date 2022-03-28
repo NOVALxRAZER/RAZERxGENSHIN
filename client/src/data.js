@@ -3,7 +3,7 @@ import slider2 from "./images/slider2.jpg"
 import slider3 from "./images/slider3.png"
 import cat1 from "./images/cat1.png"
 import cat2 from "./images/cat2.jpeg"
-import cat3 from "./images/cat3.jpg"
+// import cat3 from "./images/cat3.jpg"
 
 export const sliderItems = [
     {
@@ -44,7 +44,7 @@ export const categories = [
     },
     {
         id: 3,
-        img: cat3,
+        img: slider1,
         title: "MOUSE / MOUSEPAD",
         cat: "mouse"
     },

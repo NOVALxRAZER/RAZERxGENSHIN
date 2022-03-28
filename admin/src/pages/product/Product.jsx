@@ -58,6 +58,7 @@ export default function Product() {
         { label: ' Pink', value: 'pink' },
         { label: ' Grey', value: 'grey' },
         { label: ' Red', value: 'red' },
+        { label: ' Linen', value: 'linen' },
         { label: ' White', value: 'white' },
         { label: ' Yellow', value: 'yellow' },
     ];

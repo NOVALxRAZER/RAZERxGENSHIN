@@ -248,7 +248,7 @@ export default function Cart() {
                                     <ProductAmountContainer>
                                         <ProductAmount>{product.quantity}</ProductAmount>
                                     </ProductAmountContainer>
-                                    <ProductPrice>$ {product.price * product.quantity}</ProductPrice>
+                                    <ProductPrice>Rp. {product.price * product.quantity}</ProductPrice>
                                     <DeleteProduct onClick={() => handleDelete(product._id, cart)}>Delete Product</DeleteProduct>
                                 </PriceDetail>
                             </Product>
@@ -259,26 +259,26 @@ export default function Cart() {
                         <SummaryTitle>ORDER SUMMARY</SummaryTitle>
                         <SummaryItem>
                             <SummaryItemText>Subtotal</SummaryItemText>
-                            <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
+                            <SummaryItemPrice>Rp. {cart.total}</SummaryItemPrice>
                         </SummaryItem>
                         <SummaryItem>
                             <SummaryItemText>Shipping Price</SummaryItemText>
-                            <SummaryItemPrice>$ 6.9</SummaryItemPrice>
+                            <SummaryItemPrice>Rp. 15.000</SummaryItemPrice>
                         </SummaryItem>
                         <SummaryItem>
                             <SummaryItemText>Shipping Voucher</SummaryItemText>
-                            <SummaryItemPrice>$ -6.9</SummaryItemPrice>
+                            <SummaryItemPrice>Rp. 15.000</SummaryItemPrice>
                         </SummaryItem>
                         <SummaryItem type="total">
                             <SummaryItemText>Total</SummaryItemText>
-                            <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
+                            <SummaryItemPrice>Rp. {cart.total}</SummaryItemPrice>
                         </SummaryItem>
                         <StripeCheckout
                             name="RAZER x GENSHIN"
                             image="https://www.nicepng.com/png/full/177-1779468_razer-logo-png-razer-minimalist.png"
                             billingAddress
                             shippingAddress
-                            description={`Your Total Billing is $ ${cart.total}`}
+                            description={`Your Total Billing is Rp. ${cart.total}`}
                             amount={cart.total * 100}
                             token={onToken}
                             stripeKey={KEY}

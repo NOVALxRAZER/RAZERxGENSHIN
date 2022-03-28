@@ -146,20 +146,21 @@ export default function NewProduct() {
     }
 
     const options = [
-        { label: 'Keyboard', value: 'keyboard' },
-        { label: 'Mouse', value: 'mouse' },
-        { label: 'Headset', value: 'headset' },
+        { label: ' Keyboard', value: 'keyboard' },
+        { label: ' Mouse', value: 'mouse' },
+        { label: ' Headset', value: 'headset' },
     ];
 
     const options2 = [
-        { label: 'Green', value: 'green' },
-        { label: 'Blue', value: 'blue' },
-        { label: 'Black', value: 'black' },
-        { label: 'Pink', value: 'pink' },
-        { label: 'Grey', value: 'grey' },
-        { label: 'Red', value: 'red' },
-        { label: 'White', value: 'white' },
-        { label: 'Yellow', value: 'yellow' },
+        { label: ' Green', value: 'green' },
+        { label: ' Blue', value: 'blue' },
+        { label: ' Black', value: 'black' },
+        { label: ' Pink', value: 'pink' },
+        { label: ' Grey', value: 'grey' },
+        { label: ' Red', value: 'red' },
+        { label: ' Linen', value: 'linen' },
+        { label: ' White', value: 'white' },
+        { label: ' Yellow', value: 'yellow' },
     ];
 
     return (

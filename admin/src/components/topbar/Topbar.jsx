@@ -18,7 +18,9 @@ export default function Topbar() {
         <div className="topbar">
             <div className="topbarWrapper">
                 <div className="topLeft">
-                    <span className="logo">Razer Admin</span>
+                    <a href="/" style={{ textDecoration: "none" }}>
+                        <span className="logo">Razer Admin</span>
+                    </a>
                 </div>
                 <div className="topRight">
                     <div className="topbarIconContainer">
