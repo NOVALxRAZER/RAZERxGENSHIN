@@ -39,14 +39,14 @@ router.get("/login/failed", (req, res) => {
 
 router.get("/logout", (req, res) => {
     req.logout();
-    res.redirect("http://localhost:3001/login");
+    res.redirect(`http://151.106.120.124/login`);
 });
 
 router.get("/google", passport.authenticate("google", { scope: ["profile", "email"] }));
 
 router.get("/google/callback", passport.authenticate("google", { failureRedirect: "/login/failed" }),
     (req, res) => {
-        res.redirect("http://localhost:3001");
+        res.redirect("http://151.106.120.124");
     }
 );
 
