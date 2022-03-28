@@ -25,7 +25,7 @@ const App = () => {
 
     useEffect(() => {
         const getUser = () => {
-            fetch(`${baseURL}/auth/login/success`, {
+            fetch(`/auth/login/success`, {
                 method: "GET",
                 credentials: "include",
                 headers: {
@@ -60,14 +60,14 @@ const App = () => {
     return (
         <Router>
             <Switch>
-                <Route exact path="http://151.106.120.124/" onEnter={sessionService.checkAuth}>
+                <Route exact path="/dashboard" onEnter={sessionService.checkAuth}>
                     {(user || users) ? <Home /> : <Redirect to="/login" />}
                 </Route>
                 <Route path="/login">
-                    {((user === null) && (users === null)) ? <Login /> : <Redirect to="http://151.106.120.124/" />}
+                    {((user === null) && (users === null)) ? <Login /> : <Redirect to="/dashboard" />}
                 </Route>
                 <Route path="/register">
-                    {((user === null) && (users === null)) ? <Register /> : <Redirect to="http://151.106.120.124/" />}
+                    {((user === null) && (users === null)) ? <Register /> : <Redirect to="/dashboard" />}
                 </Route>
                 <Route path="/products/:category">
                     <ProductList />

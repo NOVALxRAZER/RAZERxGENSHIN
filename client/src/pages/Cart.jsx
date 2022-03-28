@@ -228,7 +228,7 @@ export default function Cart() {
                     <TopTexts>
                         <TopText>Shopping Bag ({shoppingBag.length})</TopText>
                     </TopTexts>
-                    <Link href="/">
+                    <Link href="/dashboard">
                         <TopButton>Back to Homepage</TopButton>
                     </Link>
                 </Top>

@@ -159,7 +159,7 @@ export default function Login() {
             login(dispatch, {
                 ...values,
             })
-            history.push("http://151.106.120.124/");
+            history.push("/dashboard");
         }
     };
 

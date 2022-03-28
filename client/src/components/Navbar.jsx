@@ -82,7 +82,7 @@ export default function Navbar() {
 
     useEffect(() => {
         const getUser = () => {
-            fetch(`${baseURL}/auth/login/success`, {
+            fetch(`/auth/login/success`, {
                 method: "GET",
                 credentials: "include",
                 headers: {
@@ -116,18 +116,17 @@ export default function Navbar() {
 
     const handleClick = () => {
         userLogout(dispatch);
-        window.open(`${baseURL}/auth/logout`, "_self");
+        window.open(`/auth/logout`, "_self");
         myStorage.removeItem("persist:root");
     }
 
-    console.log(player, "aaaaa")
     return (
         <Container>
             <Wrapper>
                 <Left>
 
                 </Left>
-                <Center><Link to="/" style={{ textDecoration: "none", color: "inherit" }}><Logo>RAZER x GENSHIN</Logo></Link></Center>
+                <Center><Link to="/dashboard" style={{ textDecoration: "none", color: "inherit" }}><Logo>RAZER x GENSHIN</Logo></Link></Center>
                 <Right>
                     {player ? (
                         <>

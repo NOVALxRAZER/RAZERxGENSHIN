@@ -35,7 +35,7 @@ const PrivateRoutes = ({ isAdmin, ...props }) => {
     const history = useHistory()
     useEffect(() => {
         if (isAdmin) {
-            history.push('/')
+            history.push('/dashboard')
         } else {
             history.push('/login')
         }
@@ -48,7 +48,7 @@ const PrivateRoutes = ({ isAdmin, ...props }) => {
                     <Topbar />
                     <div className="container">
                         <Sidebar />
-                        <Route exact path="http://151.106.120.124/">
+                        <Route exact path="/dashboard">
                             <Home />
                         </Route>
                         <Route path="/users">

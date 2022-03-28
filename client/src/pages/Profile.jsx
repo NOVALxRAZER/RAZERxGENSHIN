@@ -177,7 +177,7 @@ const Profile = () => {
             </>
             <div className="userTitleContainer">
                 <h1 className="userTitle">Edit User</h1>
-                <Link href="/">
+                <Link href="/dashboard">
                     <button className="userBack" >
                         Back to Homepage
                     </button>
