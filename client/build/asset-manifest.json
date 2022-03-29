@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.ddcc5360.css",
-    "main.js": "./static/js/main.a5dbcc05.js",
+    "main.js": "./static/js/main.c059bb52.js",
     "static/media/cat1.png": "./static/media/cat1.0a8f8eee9ea865fe6c0c.png",
     "static/media/razerbg1.jpg": "./static/media/razerbg1.80de193d917baeb305ce.jpg",
     "static/media/slider3.png": "./static/media/slider3.1d2d8bbf6d05036ca02c.png",
@@ -13,10 +13,10 @@
     "static/media/noavatar.jpg": "./static/media/noavatar.d821428d0d6c3020eb37.jpg",
     "index.html": "./index.html",
     "main.ddcc5360.css.map": "./static/css/main.ddcc5360.css.map",
-    "main.a5dbcc05.js.map": "./static/js/main.a5dbcc05.js.map"
+    "main.c059bb52.js.map": "./static/js/main.c059bb52.js.map"
   },
   "entrypoints": [
     "static/css/main.ddcc5360.css",
-    "static/js/main.a5dbcc05.js"
+    "static/js/main.c059bb52.js"
   ]
 }

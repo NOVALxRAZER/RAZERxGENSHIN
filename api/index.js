@@ -42,9 +42,7 @@ app.use(passport.session());
 
 //CORS Whitelist
 let whitelist = [
-    `http://localhost:3001`,
-    `http://localhost:4000`,
-    `http://localhost:4002`,
+    `http://151.106.120.124/`,
 ];
 
 // let corsOptions = {
